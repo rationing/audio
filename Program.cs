@@ -1,1 +1,1 @@
-﻿Console.WriteLine("Hello, World!");
+﻿# Use NAudio.Wave.WasapiRecorderBuilder() to capture sysytem audio
