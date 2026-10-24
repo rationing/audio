@@ -8,7 +8,7 @@ wasapiRecorderBuilder.WithLoopbackCapture();
 var wasapiRecorder = wasapiRecorderBuilder.Build();
 
 // Write to a WAV file
-var waveFormat = new WaveFormat();
+var waveFormat = wasapiRecorder.WaveFormat;
 var waveFileWriter = new WaveFileWriter("0.wav", waveFormat);
 
 // Write to the WAV file when data is available
